@@ -8,7 +8,7 @@ from threading import Thread
 # --- 設定項目 ---
 # Renderの環境変数からトークンを読み込む
 BOT_TOKEN = os.environ.get("DISCORD_BOT_TOKEN") 
-CHANNEL_ID = 1305846029257805824 # 通知を送りたいチャンネルのID
+CHANNEL_ID = 1305846029257805827 # 通知を送りたいチャンネルのID
 
 # --- トークンが設定されているか確認 ---
 if BOT_TOKEN is None:
