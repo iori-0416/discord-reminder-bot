@@ -5,6 +5,9 @@ import os
 from flask import Flask
 from threading import Thread
 
+from dotenv import load_dotenv
+load_dotenv()
+
 # --- 設定項目 ---
 # Renderの環境変数からトークンを読み込む
 BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN") 
